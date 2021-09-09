@@ -1,7 +1,7 @@
 const { response } = require("express");
 
 let db;
-const request = window.indexedDB.open("budget-tracker, 1");
+const request = window.indexedDB.open("budget-tracker", 1);
 
 function checkForIndexedDb() {
   if (!window.indexedDB) {
