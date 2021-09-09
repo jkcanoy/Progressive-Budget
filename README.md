@@ -37,7 +37,7 @@ Demo
 
 The following gif shows the web application's appearance and functionality
 
-![User logs in, searches for books and adds them to saved books, then removes books from saved books](./client/public/GoogleBookSearch.gif)
+![User logs in, searches for books and adds them to saved books, then removes books from saved books](./public/assets/BudgetTracker.gif)
 
 ## License
 
