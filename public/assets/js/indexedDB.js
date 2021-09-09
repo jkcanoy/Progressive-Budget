@@ -1,5 +1,3 @@
-const { response } = require("express");
-
 let db;
 const request = window.indexedDB.open("budget-tracker, 1");
 
@@ -13,7 +11,7 @@ function checkForIndexedDb() {
 
 request.onupgradeneeded = ({ target }) => {
   db = target.result;
-  const pendingStore = db.createdObjectStore("PendingStore", {
+  const pendingStore = db.createObjectStore("PendingStore", {
     autoIncrement: true,
   });
 };
