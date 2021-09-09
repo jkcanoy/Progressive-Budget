@@ -39,7 +39,7 @@ const config = {
       publicPath: "/dist",
       icons: [
         {
-          src: path.resolve("assets/icons/icon-192x192.png"),
+          src: path.resolve("./assets/icons/icon-192x192.png"),
           sizes: [96, 128, 192, 256, 384, 512],
           destination: path.join("assets", "icons"),
         },
